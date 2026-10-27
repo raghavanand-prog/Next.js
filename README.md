@@ -1,6 +1,18 @@
 # Next.js Rendering Demo: SSR vs CSR
 
-A small Next.js 15 (App Router) app that compares **Server-Side Rendering** and **Client-Side Rendering** side by side, built for Full Stack Development Labs 9 & 10.
+**A small website that shows the difference between a page built on the server and a page built in the browser.**
+
+Why it exists: built for Full Stack Development Labs 9 & 10, to compare Server-Side Rendering and Client-Side Rendering in Next.js 15 side by side.
+
+## How to run
+
+1. `npm install`
+2. `npm run dev`
+3. Open http://localhost:3000 and compare the `/ssr` and `/csr` pages.
+
+---
+
+## Technical details
 
 ## Features
 - **`/ssr`**: a Server Component fetches posts from JSONPlaceholder on the server before the page is sent to the browser
@@ -10,13 +22,6 @@ A small Next.js 15 (App Router) app that compares **Server-Side Rendering** and 
 
 ## Tech stack
 Next.js 15 · React 19 · Tailwind CSS 3
-
-## Getting started
-```bash
-npm install
-npm run dev
-```
-Open http://localhost:3000.
 
 ## Project structure
 ```
